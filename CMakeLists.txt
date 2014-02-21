@@ -111,7 +111,7 @@ include_directories (${log4cplus_SOURCE_DIR}/include
                      ${log4cplus_BINARY_DIR}/include
                     )
 
-set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${PROJECT_BINARY_DIR}/bin)
+# set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${PROJECT_BINARY_DIR}/bin)
 
 if (LOG4CPLUS_BUILD_TESTING)
   enable_testing()
